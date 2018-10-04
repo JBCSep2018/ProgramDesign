@@ -1,0 +1,180 @@
+
+1. Create a basic application
+
+Algorithm:
+Input
+-----
+number
+
+Process
+-------
+Prompt for an integer
+Store the input in number1
+Add 5 to number 1
+Store it in number2
+Multiply the number2 * 2
+Store it in number3
+Subtract 7 from number3
+Store it in total
+Print total
+
+Output 
+------
+Print the total 	
+
+
+Pseudocode:
+DEFINE number1
+DEFINE number2
+DEFINE number3
+DEFINE TOTAL
+PROMPT "Enter an integer number"
+INPUT number1
+number2 = number1 + 5
+number3 = number2 * 2
+total = number3 - 7
+PRINT total
+
+
+
+2. Add three numbers and print the total
+
+Algorithm:
+Input
+----- 
+number 
+counter
+
+Processing 
+---------
+SET counter to 1
+SET total to 0
+WHILE counter less than 4
+PROMPT for an integer 
+STORE integer in number
+ADD number to total and 
+STORE it in total
+ADD one to counter 
+PRINT total 
+
+Output 
+------
+Print the total
+
+Pseudocode:
+DEFINE number 
+DEFINE total 
+DECLARE counter
+SET counter = 1
+SET total = 0
+	WHILE (counter < 4)
+	PROMPT "Enter a number " + counter
+	INPUT number
+	total =  total + number
+	counter = counter + 1
+END WHILE
+PRINT total
+
+
+3. Find the average score
+
+Algorithm:
+Input
+----- 
+score 
+counter
+average 
+
+Processing 
+---------
+SET counter to 1
+SET total to 0
+WHILE counter less than 11
+PROMPT for score 
+STORE input in score
+ADD score to total and 
+STORE it in total
+ADD one to counter 
+DIVIDE total by 10 and 
+STORE it in average
+PRINT average 
+
+Output
+Print average 
+
+DEFINE score
+DEFINE total
+DEFINE average  
+DECLARE counter
+SET counter = 1
+SET total = 0
+WHILE(COUNTER<11)
+	PROMPT "Enter test score"
+	INPUT score 
+	total = total + score
+	counter = counter + 1
+END WHILE
+average = score / 10
+PRINT average
+
+
+4. How much water runs off the roof
+
+Algorithm:
+Input
+-----
+roofLengthFeet
+roofWidthFeet
+rainfallInches
+roofLengthInches
+roofWidthInches
+rainfallCubic
+rainfallGallon
+
+Process
+-------
+Prompt user for length of roof in feet
+Save input into roofLengthFeet
+Prompt user for width of roof in feet
+Save input to roofWidthFeet
+Prompt user for inches of rainfall
+Save input to rainfallInches
+Convert roofLengthFeet to inches by multiplying it by 12
+Store the converted value in roofLengthInches
+Convert roofWidthFeet to inches my multiplying by 12
+Store the converted value in roofWidthInches
+Multiply roofLengthInches by roofWidthInches and rainfallInches to get total rainfall
+Store total rainfall in rainfallCubic
+Divide rainfallCubic by 231 to get value of rainfall in gallons
+Store it in rainfallGallon
+Print rainfallGallon
+
+Output
+------
+rainfallGallon
+
+Pseudocode:
+DEFINE roofLengthFeet
+DEFINE roofWidthFeet
+DEFINE rainfallInches
+DEFINE roofLengthInches
+DEFINE roofWidthInches
+DEFINE totalRainfall
+DEFINE rainFallInGallon
+
+PROMPT "Enter roof length in feet"
+INPUT roofLengthFeet
+PROMPT "Enter roof width in feet"
+INPUT roofWidthFeet
+PROMPT "Enter rainfall in inches"
+INPUT rainfallInches
+Convert roofLengthFeet to inches
+roofLengthInches = roofLengthFeet * 12
+Convert roofWidthFeet to inches
+roofWidthInches = roofWidthFeet * 12
+totalRainfall = roofLengthInches * roofWidthInches * rainfallInches
+rainFallInGallon = totalRainfall / 231 
+
+
+
+
